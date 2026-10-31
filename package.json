@@ -1,0 +1,20 @@
+{
+  "name": "winback-campaign-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Win-back campaign service: Shopify webhooks, inventory aware AI copy, queued email sending",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "worker": "node src/worker.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
